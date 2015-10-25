@@ -25,8 +25,8 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-id="bd35258aff3100278eb59341396168e7"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 248px; height: auto;" data-block-id="fa7f403c4a4b9de98eaf23318f02dc90"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
-<h1>How browser renders the webpage ?</h1>
+				<section data-id="bd35258aff3100278eb59341396168e7"><div class="sl-block" data-block-type="text" style="width: 898px; left: 19px; top: 253px; height: auto;" data-block-id="fa7f403c4a4b9de98eaf23318f02dc90"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>How does the browser render a webpage ?</h1>
 </div></div></section><section data-id="7e7b9c655a818ddf4ad4e37cfdfa1d04"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="b3d3e3f9b4b71f95b9314c9c89d49468"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="text-align: left;">
 <h1 style="text-align:center">What we'll cover</h1>
 
@@ -89,7 +89,9 @@
 
 
 
-<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 891.291px; height: 265px; left: 26px; top: 193px;" data-block-id="f79a7ee5f90acacf1302d8f0ebf5ef2e"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1120" data-natural-height="333" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868249/Screen_Shot_2015-10-23_at_9.19.31_PM.png"></div></div></section><section data-id="c546a0586d9acae773528da13edf0939"><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="eacff6b8db1c11d1f2357d06757e1af1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 891.291px; height: 265px; left: 26px; top: 193px;" data-block-id="f79a7ee5f90acacf1302d8f0ebf5ef2e"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1120" data-natural-height="333" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868249/Screen_Shot_2015-10-23_at_9.19.31_PM.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="a266a8f1e9820c003e70c749d6ed8d94"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>1. Parsing</h1>
+</div></div></section><section data-id="c546a0586d9acae773528da13edf0939"><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="eacff6b8db1c11d1f2357d06757e1af1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
 <h2>Parsing HTML</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="dfd098789663a6b76d711d97b7be0153"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
@@ -110,6 +112,23 @@
 	<h3><span style="font-size:1.0em">It's reentrant</span></h3>
 	</li>
 </ul>
+</div></div></section><section>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="985485feb18f70394b2e86a8055ea37b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Rendering Engines</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 914px; left: 30px; top: 175px; height: auto;" data-block-id="f7c75daa873d437bc51c25e5c65de2ea"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left; z-index: 12;" dir="ui">
+<p style="color:rgb(85, 85, 85)">Different browsers use different rendering engines:</p>
+
+<ol>
+	<li style="color:rgb(85, 85, 85)">Internet Explorer uses Trident</li>
+	<li style="color:rgb(85, 85, 85)">Firefox uses Gecko</li>
+	<li style="color:rgb(85, 85, 85)">Safari uses WebKit</li>
+	<li style="color:rgb(85, 85, 85)">Chrome and Opera (from version 15) use Blink, a fork of WebKit.</li>
+</ol>
+
+<p style="color:rgb(85, 85, 85)"> </p>
+
+<p style="color:rgb(85, 85, 85)"><span style="font-size:0.7em">WebKit is an open source rendering engine which started as an engine for the Linux platform and was modified by Apple to support Mac and Windows.</span></p>
 </div></div></section><section data-id="592083b42be2bceeee5b66aed7ff403e"><div class="sl-block" data-block-type="text" style="width: 800px; left: 79px; top: 50px; height: auto;" data-block-id="af09bd478159f3a4a6d6cae4b13f1282"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
 <h2>Valid HTML5</h2>
 </div></div>
@@ -140,9 +159,279 @@
 </div></div>
 <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 298.22px; left: 40px; top: 210px;" data-block-id="209f15cae5489b3e88bec57382535e46"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="472" data-natural-height="391" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868332/Screen_Shot_2015-10-23_at_9.45.01_PM.png"></div></div>
 <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 450.182px; height: 288px; left: 499px; top: 202px;" data-block-id="59081d620c7504018e95044115c4497a"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="619" data-natural-height="396" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868335/Screen_Shot_2015-10-23_at_9.45.07_PM.png"></div></div>
-<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 4px; height: 464px; left: 437px; top: 112px;" data-block-id="c7af97460dd6e21b09747f5a301753d9"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 4 464"><rect width="4" height="464" class="shape-element" fill="#000000"></rect></svg></div></div></section><section data-id="a2e852832aae6040a9b7eb43e6f7ebd9"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 191px; height: auto;" data-block-id="bd5fe34c69a0ef93844b327a3beb0d83"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" dir="ui" style="z-index: 11;"><h1>CHETAN RAJ</h1></div></div>
-<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 288px; height: auto;" data-block-id="be7eea2c41bf1fb64433ed2d4ac72626"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12;">
-<h2><span style="font-size:0.5em"><a href="http://chetanraj.in/devessentials" target="_blank">http://chetanraj.in/devessentials</a></span></h2>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 4px; height: 464px; left: 437px; top: 112px;" data-block-id="c7af97460dd6e21b09747f5a301753d9"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 4 464"><rect width="4" height="464" class="shape-element" fill="#000000"></rect></svg></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 28px; height: auto;" data-block-id="93ac458aa567c08a46b2fd46cb0b96cf"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>&lt;script&gt;, &lt;link&gt; &amp; &lt;style&gt;</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 232px; height: auto;" data-block-id="e7a583826d3c230f5a7f57a210ae8145"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="text-align: left;">
+<h3 style="text-align:left"><span style="font-size:0.9em">Will halt the parser as a script can alter the document.</span></h3>
+
+<ul>
+	<li>
+	<h3><span style="font-size:0.7em">Network latency</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.7em">link &amp; style could halt JS execution</span></h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 28px; height: auto;" data-block-id="8d6d4a504b96ee3ae6ced8ff32550346"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Speculative parsing</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 232px; height: auto;" data-block-id="6f34a6f320d1cb72f3b9f7c6bbe7eee1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="text-align: left; z-index: 11;">
+<ul>
+	<li>
+	<h3><span style="font-size:0.7em">Will look ahead</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.7em">External images, scripts, css</span></h3>
+	</li>
+</ul>
+
+<div>​</div>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 500px; height: 140px; left: 106px; top: 380px;" data-block-id="6f29c87197af88dd57f51bdcf0b469b2"><div class="sl-block-content" style="z-index: 13;" data-highlight-theme="tomorrow"><pre><code>&lt;script src='script.js'&gt;
+//....
+&lt;img src='logo.gif' /&gt;
+&lt;link href='styles.css' /&gt;</code></pre></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 28px; height: auto;" data-block-id="7e13fddb3f5d51fbabf8a90dce5a0588"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>Reentrant</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 909px; left: 7px; top: 125px; height: auto;" data-block-id="a61d9102500fcc443dd84a2f87b0ca1e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="text-align: left; z-index: 12;">
+<h3>Means the parsing process can be interrupted</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 762.479px; height: 403px; left: 99px; top: 202px;" data-block-id="725a6c1e82087fc178c0faa8e0deea67"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="876" data-natural-height="463" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868318/Screen_Shot_2015-10-23_at_9.39.53_PM.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 28px; height: auto;" data-block-id="86bf4930669197bdbef33bc0d95c3552"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1><span style="font-size:0.9em">Performance insight</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 729px; left: 80px; top: 185px; height: auto;" data-block-id="80bec45fce67d2a6a499feee1dd49ed1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="text-align: left; z-index: 12;">
+<h3>&lt;script /&gt; at the bottom</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 667px; left: 126px; top: 264px;" data-block-id="22d570bc6f57e7e1232e02e597fcbd45"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li>Parse uninterrupted</li>
+	<li>Faster to render defer and async attributes</li>
+	<li>Trade of</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="ce251b7eb633a466880f3453afe8596d"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>CSS parsing</h1>
+</div></div></section><section data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868621/image023.png" data-background-size="initial"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 28px; height: auto;" data-block-id="495de8e67c608c79a62822811617a736"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>CSSOM</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 289px; left: 36px; top: 611px;" data-block-id="70c23247cff300ded049bdbfe1f7d16b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p style="text-align: left;"><a href="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#WebKit_CSS_parser" target="_blank"><span style="font-size:0.5em">Image Source</span></a></p>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 79px; top: 270px; height: auto;" data-block-id="2f40c01525e74ff461895c98fe51ba65"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>2. Render/Frame tree</h1>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="8ae5312cc090fa4e653bdb2250ffc819"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>DOM + CSSOM</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="3bcbf1a1d794d01e021f8bf70efc95b1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3><span style="font-size:0.9em">Combines the two object models, style resolution</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">This is the actual representation of what will show on screen</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Not a 1-to-1 mapping of your HTML</span></h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="image" style="width: 791.068px; height: 291px; left: 89px; top: 179px;" data-block-id="cfba06d821f31a6c1b9390e3336a8c6c"><div class="sl-block-content"><img data-natural-width="1120" data-natural-height="412" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868652/Screen_Shot_2015-10-23_at_11.53.55_pm.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="3f293de9163f25393b7c876882d398ff"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Not in the render tree</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 870px; left: 10px; top: 238px; height: auto;" data-block-id="eb14c60ec93e81c35c7a05c491be303c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3>Non-visual elements head, script, title etc</h3>
+	</li>
+	<li>
+	<h3>Nodes hidden via display: none;</h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 825px; left: 53px; top: 70px; height: auto;" data-block-id="ddffb0d80c9b3332945a62b3110387ca"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2 style="text-align: left;">DOM Node to RenderObject</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 455.784px; height: 206px; left: 160px; top: 309px;" data-block-id="c29d27f1774ac78f00af028178e4887a"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="635" data-natural-height="287" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/112701/images/1868669/Screen_Shot_2015-10-24_at_12.00.59_am.png"></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 542px; height: 85px; left: 160px; top: 171px;" data-block-id="e3a60e46999f34e5ca7bcf05ff98f6bd"><div class="sl-block-content" style="z-index: 13;"><pre><code>&lt;p&gt;The quick brown &lt;strong&gt;fox&lt;/strong&gt;
+&lt;em&gt;jumps&lt;em&gt; over the lazy dog&lt;/p&gt;</code></pre></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 831px; left: 47px; top: 70px; height: auto;" data-block-id="0585165fcd07279312a47a85b0ca0ded"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2 style="text-align: left;">DOM Node to RenderObject</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 81px; top: 238px; height: auto;" data-block-id="5df50de8af7d3a33417f6e0ebce17d99"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3><span style="font-size:0.9em">Visual output</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Geometric info</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Can layout and paint</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Holds style &amp; computed metrics</span></h3>
+	</li>
+</ul>
+
+<h3> </h3>
+</div></div></section><section><div class="sl-block" data-block-type="iframe" style="min-width: 30px; min-height: 30px; width: 960px; height: 656px; left: 0px; top: 17px;" data-block-id="4b6a4b243e447cf1776e9d52e6ef55e7"><div class="sl-block-content" style="z-index: 11;"><iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://www.youtube.com/embed/ZTnIxIA5KGw?enablejsapi=1" data-autoplay=""></iframe></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 839px; left: 39px; top: 70px; height: auto;" data-block-id="6ea038119243b19f3448eaf1250e069d"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2 style="text-align: left;">Calculating visual properties</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="b4f6594ae1ce8318af530cf45d071b69"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3><span style="font-size:0.9em"><span style="font-family:montserrat,helvetica,sans-serif; font-weight:normal; line-height:1.3">Combines all styles</span></span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">defaults, external, style elements &amp; inline</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Complexity around matching rules for each element</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Style computation</span></h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="e385392744ff01688271fa16af807523"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>3. Layout</h1>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="78506a5db7183b39fffec18fe38ba21a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Recursive process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="633c10e807cb503b71a5f621e2a08341"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3><span style="font-size:0.9em">Traverse render tree</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Nodes position and size</span></h3>
+	</li>
+	<li>
+	<h3><span style="font-size:0.9em">Layout its children</span></h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="bcf7191e50fd66278dcc64c29b52710c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Immediate layout</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="dcd5e7a4fded925edac74e59788802c5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3>Doing a font-size change will relayout the entire document</h3>
+	</li>
+	<li>
+	<h3>Same with browser resize</h3>
+	</li>
+	<li>
+	<h3>Accessing certain properties via JavaScript e.g. node.ofsetHeight</h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="58a3de6d800c314ebd72e444eea93ddf"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>4. Paint</h1>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="d2d32fb5db22279ecc704b7ea1c9593b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Paint setup</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="a926919967906fbc6c301549fa4790bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3>Will take the layed out render trees</h3>
+	</li>
+	<li>
+	<h3>Creates layers</h3>
+	</li>
+	<li>
+	<h3>Incremental process</h3>
+	</li>
+	<li>
+	<h3>Builds up over 12 phases</h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="75b731d8dd6c1b605e6af7b265239184"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>RenderLayers</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="3b2ed1d6e38ea12d7077202a4cb26c8c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3>Creates layers from RenderObjects</h3>
+	</li>
+	<li>
+	<h3>Position nodes, transparency, overflow, canvas, video etc</h3>
+	</li>
+	<li>
+	<h3>Many-to-1 relationship a RenderLayer could contain multiple RenderObjects</h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="0681e1ded30552e69a240903d41be2fb"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Painting</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 238px; height: auto;" data-block-id="7b2130c9cfeb55b9255bb230d7906c8d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3>Produces a bitmap from each layer</h3>
+	</li>
+	<li>
+	<h3>Bitmap is uploaded to the GPU as a texture</h3>
+	</li>
+	<li>
+	<h3>Composites the textures into a fnal image to render to the screen</h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="0e5e75d9c54eb8ac4bd3ee820926dca7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Basics of WPO</h1>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 81px; top: 51px; height: auto;" data-block-id="f842cdf4fee3545277fc9fcca795b7b7"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<p style="color: rgb(38, 40, 42); text-align: start;">Practices for Speeding Up Your Web Page</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 81px; top: 140px; height: auto;" data-block-id="0426ae3ad9192300a3500eba7545172f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<ul>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Minimize HTTP Requests</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Using a CDN[Content Delivery Network]</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Add an Expires or a Cache-Control Header</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Gzip Components</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Put Stylesheets at the Top and Put Scripts at the Bottom</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Minify JavaScript and CSS</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Remove Duplicate Script</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Choose &lt;link&gt; over @import</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Reduce the Number of DOM Elements</h3>
+	</li>
+	<li>
+	<h3 style="color:rgb(38, 40, 42); font-size:18.2px">Optimize Images</h3>
+	</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 78px; top: 70px; height: auto;" data-block-id="bd3cf5763bd4fe531acd050440f15ed3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Ref.</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 842px; left: 80px; top: 166px; height: auto;" data-block-id="9bd1c2cb3b2129cbeece35c1fee55bc8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="text-align: left;">
+<p><span style="font-size:0.5em"><a href="http://www.webkit.org/projects/layout/index.html" target="_blank">http://www.webkit.org/projects/layout/index.html</a></span></p>
+
+<p><a href="http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html" target="_blank"><span style="font-size:0.5em">http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html</span></a></p>
+
+<p><a href="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/" target="_blank"><span style="font-size:0.5em">http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/</span></a></p>
+
+<p><a href="https://www.youtube.com/watch?gl=US&amp;v=RVnARGhhs9w" target="_blank"><span style="font-size:0.5em">https://www.youtube.com/watch?gl=US&amp;v=RVnARGhhs9w</span></a></p>
+
+<p><a href="https://www.chromium.org/developers/design-documents/gpuaccelerated-compositing-in-chrome" target="_blank"><span style="font-size:0.5em">https://www.chromium.org/developers/design-documents/gpuaccelerated-compositing-in-chrome</span></a></p>
+
+<p><a href="https://www.youtube.com/watch?v=Lpk1dYdo62o" target="_blank"><span style="font-size:0.5em">https://www.youtube.com/watch?v=Lpk1dYdo62o</span></a></p>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 320px; left: 480px; top: 435px; height: auto;" data-block-id="59c38cf935f3d4048f9e3707cc2a8cac"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" dir="ui" style="z-index: 11;">
+<h1 style="text-align: right;"><span style="font-size:0.5em">Chetan</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 0px; top: 523px; height: auto;" data-block-id="3b7d20968f690b1fbf0ab1aca4e83829"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12;" dir="ui">
+<h2 style="text-align: right;"><span style="font-size:0.5em">techblog: <a href="http://chetanraj.in/devessentials" target="_blank">http://chetanraj.in/devessentials</a></span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 201px;" data-block-id="24bcd790655b9779349fc61114babaab"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h1>Thanks</h1>
 </div></div></section>
 			</div>
 		</div>
@@ -150,7 +439,7 @@
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":112701,"username":"chetanraj","name":"Chetan Raj N S","description":"","thumbnail_url":"https://www.gravatar.com/avatar/69b8f56f7cc3b858af1bb03495f72f44?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"enterprise":false,"enterprise_manager":false,"settings":{"id":24010,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false},"registered":true,"email":"chetan.narian@gmail.com","notify_on_receipt":false,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false},"deck":{"id":520649,"slug":"techtalk","title":"TechTalk","description":"","visibility":"all","published_at":"2015-10-20T11:02:58.704Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/3ecb12/decks.jpg","view_count":0,"user":{"id":112701,"username":"chetanraj","name":"Chetan Raj N S","description":"","thumbnail_url":"https://www.gravatar.com/avatar/69b8f56f7cc3b858af1bb03495f72f44?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"enterprise":false,"enterprise_manager":false,"settings":{"id":24010,"present_controls":true,"present_upsizing":true,"present_notes":true},"registered":true},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":true,"rtl":false,"version":2,"access_token":"qdECqV4wHayyVs7J6BBobyq9fEzr","notes":{}}};
+	var SLConfig = {"current_user":{"id":112701,"username":"chetanraj","name":"Chetan Raj N S","description":"","thumbnail_url":"https://www.gravatar.com/avatar/69b8f56f7cc3b858af1bb03495f72f44?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"enterprise":false,"enterprise_manager":false,"settings":{"id":24010,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false},"registered":true,"email":"chetan.narian@gmail.com","notify_on_receipt":false,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false},"deck":{"id":520649,"slug":"techtalk","title":"TechTalk","description":"","visibility":"all","published_at":"2015-10-20T11:02:58.704Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/3ecb12/decks.jpg","view_count":0,"user":{"id":112701,"username":"chetanraj","name":"Chetan Raj N S","description":"","thumbnail_url":"https://www.gravatar.com/avatar/69b8f56f7cc3b858af1bb03495f72f44?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"enterprise":false,"enterprise_manager":false,"settings":{"id":24010,"present_controls":true,"present_upsizing":true,"present_notes":true},"registered":true},"background_transition":"slide","transition":"default","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":true,"rtl":false,"version":2,"access_token":"qdECqV4wHayyVs7J6BBobyq9fEzr","notes":{}}};
 </script>
 
 		<script>
